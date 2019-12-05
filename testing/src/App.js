@@ -1,11 +1,11 @@
 import React from 'react';
-import ShowScoreboard from "./components/ShowScoreboard";
+import ShowButtons from "./components/ShowButtons";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <ShowScoreboard />
+      <ShowButtons />
     </div>
   );
 }
