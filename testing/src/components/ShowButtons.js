@@ -36,22 +36,20 @@ const ShowButtons = () => {
         setValues({balls: 0, strikes: 0});
     }
 
-    console.log(values);
-
     return (
         <div>
             <ShowScoreboard data={values} />
             <div className='center'>
-            <div>
+            <div className='spaced'>
                 <button id='strike' onClick={handleStrike}>Strike</button>
             </div>
-            <div>
+            <div className='spaced'>
                 <button id='ball' onClick={handleBall}>Ball</button>
             </div>
-            <div>
+            <div className='spaced'>
                 <button id='foul' onClick={handleFoul}>Foul</button>
             </div>
-            <div>
+            <div className='spaced'>
                 <button id='hit' onClick={handleHit}>Hit</button>
             </div>
             </div>

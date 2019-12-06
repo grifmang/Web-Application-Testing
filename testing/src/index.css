@@ -17,3 +17,7 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.spaced {
+  margin: 0 10px;
+}
